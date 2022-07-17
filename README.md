@@ -1,18 +1,18 @@
-# End to End Computer Vision ML pipelines with MLflow Projets
+# End to End Computer Vision ML pipelines with MLflow Projects
 
 Train your Computer Vision model easily on any custome dataset and track experement using MLflow project and tracking. You can choose official PyTorch models trained on COCO datasets, or choose any backbone from Torchvision classification models, or even write your own custome backbones.
 
 **Object Detection (Bounding Box)**
-![docs/images/BoundingBox.png]
+![](docs/images/BoundingBox.png)
 
 **Keypoint Detection**
-![docs/images/Keypoint.png]
+![](docs/images/Keypoint.png)
 
 **Sematic Segmentation**
-![docs/images/ObjectDetection.png]
+![](docs/images/ObjectDetection.png)
 
 **Stuff Segmentation**
-![docs/images/StuffSegementation.png]
+![](docs/images/StuffSegementation.png)
 
 ## Install
 1. Install CUDA and cuDNN if you have not already done
