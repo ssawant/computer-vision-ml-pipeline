@@ -8,11 +8,15 @@ Train your Computer Vision model easily on any custome dataset and track experem
 **Keypoint Detection**
 ![](docs/images/Keypoint.png)
 
-**Sematic Segmentation**
+**Instance Segmentation**
 ![](docs/images/ObjectDetection.png)
 
 **Stuff Segmentation**
 ![](docs/images/StuffSegementation.png)
+
+**Panoptic Segmentation**
+![](docs/images/Panoptic.png)
+
 
 ## Install
 1. Install CUDA and cuDNN if you have not already done
