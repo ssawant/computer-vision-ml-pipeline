@@ -34,7 +34,7 @@ Train your Computer Vision model easily on any custome dataset and track experem
 
 TODO: Adding dataset config format
 
-Next,tostart the training, you can use the following command.
+Next,to start the training, you can use the following command.
 
 **Command format:**
 ```
