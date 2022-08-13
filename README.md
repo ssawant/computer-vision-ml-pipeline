@@ -32,7 +32,23 @@ Train your Computer Vision model easily on any custome dataset and track experem
 
 ## Training on Custom Dataset
 
-TODO: Adding dataset config format
+Here we are using *Coco dataset* run `download_coco.sh` script to download coco dataset under data directory. Update following `coco.yaml` under `data_configs` make sure that coco data is present in  `data` folder in below format before proceeding with further steps.
+
+```
+# Images and labels direcotry should be relative to train.py
+TRAIN_DIR_IMAGES: '../../xml_od_data/coco2017/train2017'
+TRAIN_DIR_LABELS: '../../xml_od_data/coco2017/train_xml'
+VALID_DIR_IMAGES: '../../xml_od_data/coco2017/val2017'
+VALID_DIR_LABELS: '../../xml_od_data/coco2017/val_xml'
+
+.....
+
+# Number of classes (object classes + 1 for background class in Faster RCNN).
+NC: 81
+
+# Whether to save the predictions of the validation set while training.
+SAVE_VALID_PREDICTION_IMAGES: True
+```
 
 Next,to start the training, you can use the following command.
 
